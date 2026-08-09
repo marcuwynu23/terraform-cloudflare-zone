@@ -1,0 +1,4 @@
+cloudflare_api_token = "your-api-token-here"
+account_id           = "your-cloudflare-account-id"
+zone_name            = "example.com"
+type                 = "full"
