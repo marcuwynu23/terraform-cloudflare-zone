@@ -16,17 +16,16 @@ on:
         default: us-central1
 
       account_id:
-        description: Cloudflare Account ID where the zone will be created
+        description: "Cloudflare Account ID where the zone will be created"
         required: true
         type: string
 
       zone_name:
-        description: The domain name of the zone (e.g., example.com)
+        description: "The domain name of the zone (e.g., example.com)"
         required: true
         type: string
-
       type:
-        description: Zone type: full, partial, or secondary
+        description: "Zone type: full, partial, or secondary"
         required: true
         type: string
         default: "full"
